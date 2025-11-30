@@ -340,9 +340,5 @@ def main():
         elif choice == 2:
             student_mode(questions)
 
-if __name__ == "__main__":
-    try:
-        main()
-    except KeyboardInterrupt:
         print("\nInterrupted. Exiting...")
         sys.exit(0)
